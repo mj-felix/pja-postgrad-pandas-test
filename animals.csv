@@ -1,0 +1,11 @@
+name,species,age,visits,price,total
+Daisy,CAT,2.5,1,20,20
+Bella,CAT,3.0,3,20,60
+Noodle,SNAKE,0.5,2,10,20
+Charlie,DOG,,3,20,60
+Molly,CAT,2.0,3,10,30
+Draco,SNAKE,4.5,1,10,10
+Kenzo,CAT,,1,20,20
+Milo,DOG,7.0,2,10,20
+Cooper,DOG,3.0,1,10,10
+Buddy,DOG,5.5,2,10,20
