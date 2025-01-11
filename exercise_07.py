@@ -1,4 +1,3 @@
-import pandas as pd
 from exercise_06 import weather
 
 print(
