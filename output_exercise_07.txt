@@ -6,6 +6,7 @@ wując wartości 'Yes' na True i 'No' na False,
 b) przekształć dane w kolumnach, zawierających dane o kierunku wiatru, na typ kategoryczny
 (category),
 
+>>> Removing NA values in Wind Direction Columns. More analysis required why these are there. Either becasue the speed of wind is 0 or for some other reason/no reason
 
 c) wyświetl informacje o zmodyfikowanej ramce danych i jej strukturze,
 <class 'pandas.core.frame.DataFrame'>

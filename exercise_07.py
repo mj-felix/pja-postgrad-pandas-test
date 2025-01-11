@@ -20,6 +20,8 @@ weather[['RainToday', 'RainTomorrow']] = weather[[
 # b) przekształć dane w kolumnach, zawierających dane o kierunku wiatru, na typ kategoryczny
 # (category),
 wind_direction_columns = ['WindGustDir', 'WindDir9am', 'WindDir3pm']
+print('>>> Removing NA values in Wind Direction Columns. More analysis required why these are there. '
+      'Either becasue the speed of wind is 0 or for some other reason/no reason')
 weather[wind_direction_columns] = weather[wind_direction_columns].fillna(
     'N/A or missing')
 weather[wind_direction_columns] = weather[wind_direction_columns].astype(
