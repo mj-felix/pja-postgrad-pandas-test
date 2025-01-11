@@ -1,0 +1,24 @@
+
+    Zadanie 3: Operacje na wierszach i kolumnach [5 pkt]
+    Mając ramkę danych animals z poprzedniego zadania, w podanej poniżej kolejności:
+    a) dodaj do niej wiersz o indeksie 'k', zawierający informacje o nowym zwierzęciu – psie, wabiącym
+    się Buddy, w wieku 5.5 roku, któy odwiedził gabinet 2 razy w zwykłym trybie,
+    b) dodaj do niej kolumnę 'price', zawierającą wartość 10 dla pacjentów zwykłych i 20 dla pacjentów
+    priorytetowych,
+    c) dodaj do niej kolumnę 'total', zawierajacą całkowity koszt wszystkich wizyt,
+    d) usuń z niej kolumnę 'priority',
+    e) zmień nazwę kolumny 'animal' na 'species',
+    f) wyświetl otrzymaną ramkę danych.
+    
+  species     name  age  visits  price  total
+a     cat    Daisy  2.5       1     20     20
+b     cat    Bella  3.0       3     20     60
+c   snake   Noodle  0.5       2     10     20
+d     dog  Charlie  NaN       3     20     60
+e     dog      Max  5.0       2     10     20
+f     cat    Molly  2.0       3     10     30
+g   snake    Draco  4.5       1     10     10
+h     cat    Kenzo  NaN       1     20     20
+i     dog     Milo  7.0       2     10     20
+j     dog   Cooper  3.0       1     10     10
+k     dog    Buddy  5.5       2     10     20

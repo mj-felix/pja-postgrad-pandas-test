@@ -1,0 +1,61 @@
+
+    Zadanie 4: Indeksowanie ramek danych [4 pkt]
+    Mając ramkę danych animals z poprzedniego zadania, wykonaj w podanej kolejności poniższe kroki,
+    po każdym z nich wyświetlając otrzymany wynik:
+    
+
+a) przywróć ramce danych domyślny indeks całkowity, sprawiając jednocześnie,by nie została dodana nowa kolumna z wcześniejszymi wartościami indeksu,
+   species     name  age  visits  price  total
+0      cat    Daisy  2.5       1     20     20
+1      cat    Bella  3.0       3     20     60
+2    snake   Noodle  0.5       2     10     20
+3      dog  Charlie  NaN       3     20     60
+4      dog      Max  5.0       2     10     20
+5      cat    Molly  2.0       3     10     30
+6    snake    Draco  4.5       1     10     10
+7      cat    Kenzo  NaN       1     20     20
+8      dog     Milo  7.0       2     10     20
+9      dog   Cooper  3.0       1     10     10
+10     dog    Buddy  5.5       2     10     20
+
+b) utwórz indeks z kolumny 'name',
+        species  age  visits  price  total
+name                                      
+Daisy       cat  2.5       1     20     20
+Bella       cat  3.0       3     20     60
+Noodle    snake  0.5       2     10     20
+Charlie     dog  NaN       3     20     60
+Max         dog  5.0       2     10     20
+Molly       cat  2.0       3     10     30
+Draco     snake  4.5       1     10     10
+Kenzo       cat  NaN       1     20     20
+Milo        dog  7.0       2     10     20
+Cooper      dog  3.0       1     10     10
+Buddy       dog  5.5       2     10     20
+
+c) usuń z ramki danych wiersz, zawierający informacje o psie, wabiącym się Max,
+        species  age  visits  price  total
+name                                      
+Daisy       cat  2.5       1     20     20
+Bella       cat  3.0       3     20     60
+Noodle    snake  0.5       2     10     20
+Charlie     dog  NaN       3     20     60
+Molly       cat  2.0       3     10     30
+Draco     snake  4.5       1     10     10
+Kenzo       cat  NaN       1     20     20
+Milo        dog  7.0       2     10     20
+Cooper      dog  3.0       1     10     10
+Buddy       dog  5.5       2     10     20
+
+d) przywróć ramce danych domyślny indeks całkowity, sprawiając jednocześnie,by z istniejącego indeksu uczynić kolumnę danych w ramce.
+      name species  age  visits  price  total
+0    Daisy     cat  2.5       1     20     20
+1    Bella     cat  3.0       3     20     60
+2   Noodle   snake  0.5       2     10     20
+3  Charlie     dog  NaN       3     20     60
+4    Molly     cat  2.0       3     10     30
+5    Draco   snake  4.5       1     10     10
+6    Kenzo     cat  NaN       1     20     20
+7     Milo     dog  7.0       2     10     20
+8   Cooper     dog  3.0       1     10     10
+9    Buddy     dog  5.5       2     10     20

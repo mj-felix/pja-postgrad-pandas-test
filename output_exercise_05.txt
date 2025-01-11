@@ -1,7 +1,4 @@
-from exercise_04 import animals
 
-print(
-    '''
 Zadanie 5: Zapisywanie danych do pliku CSV [3 pkt]
 Mając ramkę danych animals z poprzedniego
 zadania, wykonaj w podanej kolejności poniższe kroki:
@@ -9,23 +6,11 @@ a) zamień w kolumnie 'species' ciągi znaków na pisane samymi wielkimi literam
 b) zapisz tę ramkę danych do pliku CSV o nazwie 'animals.csv' – spraw, by nie zawierał on niejawnych
 (numerycznych) indeksów wierszy,
 c) odpowiednim poleceniem systemu operacyjnego wyświetl zawartość utworzonego pliku.
-'''
-)
 
-# a) zamień w kolumnie 'species' ciągi znaków na pisane samymi wielkimi literami,
-animals['species'] = animals['species'].str.upper()
 
-# b) zapisz tę ramkę danych do pliku CSV o nazwie 'animals.csv' – spraw, by nie zawierał
-# on niejawnych (numerycznych) indeksów wierszy,
-animals.to_csv('animals.csv', index=False)
-
-# c) odpowiednim poleceniem systemu operacyjnego wyświetl zawartość utworzonego pliku.
-# $ cat animals.csv
-if __name__ == '__main__':
-    print('''
     $ cat animals.csv
-    ''')
-    print('''
+    
+
     name,species,age,visits,price,total
     Daisy,CAT,2.5,1,20,20
     Bella,CAT,3.0,3,20,60
@@ -37,4 +22,4 @@ if __name__ == '__main__':
     Milo,DOG,7.0,2,10,20
     Cooper,DOG,3.0,1,10,10
     Buddy,DOG,5.5,2,10,20
-    ''')
+    

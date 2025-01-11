@@ -1,0 +1,48 @@
+
+Zadanie 2: Wybieranie danych z ramki danych [6 pkt]
+Mając ramkę danych animals z poprzedniego zadania, wybierz z niej, a następnie wyświetl:
+
+
+a) pierwsze 3 wiersze
+  animal    name  age  visits priority
+a    cat   Daisy  2.5       1      yes
+b    cat   Bella  3.0       3      yes
+c  snake  Noodle  0.5       2       no
+
+b) kolumny 'animal' i 'age',
+  animal  age
+a    cat  2.5
+b    cat  3.0
+c  snake  0.5
+d    dog  NaN
+e    dog  5.0
+f    cat  2.0
+g  snake  4.5
+h    cat  NaN
+i    dog  7.0
+j    dog  3.0
+
+c) dane z wierszy 3, 4 i 8, zawarte w kolumnach 'visits' i 'priority',
+   visits priority
+c       2       no
+d       3      yes
+h       1      yes
+
+d) wiersze, w których liczba wizyt wynosi więcej niż 2,
+  animal     name  age  visits priority
+b    cat    Bella  3.0       3      yes
+d    dog  Charlie  NaN       3      yes
+f    cat    Molly  2.0       3       no
+
+e) wiersze, w których zwierzęciem jest kot i ma mniej niż 4 lata,
+  animal   name  age  visits priority
+a    cat  Daisy  2.5       1      yes
+b    cat  Bella  3.0       3      yes
+f    cat  Molly  2.0       3       no
+
+f) wiersze, w których wiek zwierzęcia mieści się w przedziale od 2 do 4 lat (włącznie).
+  animal    name  age  visits priority
+a    cat   Daisy  2.5       1      yes
+b    cat   Bella  3.0       3      yes
+f    cat   Molly  2.0       3       no
+j    dog  Cooper  3.0       1       no
