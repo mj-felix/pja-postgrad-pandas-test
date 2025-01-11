@@ -1,12 +1,12 @@
 
-Zadanie 8: Wczytywanie danych z pliku MS Excel [5 pkt] Mając skoroszyt MS Excel o nazwie
-'employee.xlsx' (możesz go pobrać stąd), wykonaj w podanej kolejności poniższe kroki:
-a) wczytaj z niego arkusz 'employee_details' do ramki danych emp_det, zaś arkusz 'performance' do
-ramki danych emp_perf,
-b) przekształć w tych ramkach danych kolumnę 'name' na indeks,
-c) połącz je kolumna po kolumnie do ramki danych o nazwie employees,
-d) zameń nazwy kolumn tak, by zaczynały się od wielkiej litery,
-
+    Zadanie 8: Wczytywanie danych z pliku MS Excel [5 pkt] Mając skoroszyt MS Excel o nazwie
+    'employee.xlsx' (możesz go pobrać stąd), wykonaj w podanej kolejności poniższe kroki:
+    a) wczytaj z niego arkusz 'employee_details' do ramki danych emp_det, zaś arkusz 'performance' do
+    ramki danych emp_perf,
+    b) przekształć w tych ramkach danych kolumnę 'name' na indeks,
+    c) połącz je kolumna po kolumnie do ramki danych o nazwie employees,
+    d) zameń nazwy kolumn tak, by zaczynały się od wielkiej litery,
+    
 Assumption: index to be capitalised as well.
 
 e) wyświetl informacje o zmodyfikowanej ramce danych i jej strukturze oraz jej zawartość.
