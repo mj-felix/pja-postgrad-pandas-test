@@ -59,13 +59,15 @@ d) wyświetl wiersze, zawierające informacje o pogodzie w pierwszej dekadzie lu
 e) wyświetl wiersze, zawierające informacje o obserwacjach, w dniach, w których wiatr o godzinie
 dziewiątej wiał z kierunków południowozachodnich.
 
-          Date  MinTemp  MaxTemp  ...  RainToday  RISK_MM  RainTomorrow
-0   2007-11-01      8.0     24.3  ...      False      3.6          True
-17  2007-11-18     11.7     30.0  ...       True      0.6         False
-185 2008-05-04     -0.9     16.7  ...      False      0.0         False
-256 2008-07-14      2.7     16.5  ...      False      0.0         False
-314 2008-09-10     -2.7     15.2  ...      False      0.0         False
-335 2008-10-01      1.4     20.6  ...      False      0.0         False
-350 2008-10-16      4.4     21.0  ...      False      0.0         False
+Copying WindDir9am to the beginning so that it is visible in the output file.
 
-[7 rows x 23 columns]
+    WindDir9am_copy       Date  MinTemp  ...  RainToday  RISK_MM  RainTomorrow
+0                SW 2007-11-01      8.0  ...      False      3.6          True
+17               SW 2007-11-18     11.7  ...       True      0.6         False
+185              SW 2008-05-04     -0.9  ...      False      0.0         False
+256              SW 2008-07-14      2.7  ...      False      0.0         False
+314              SW 2008-09-10     -2.7  ...      False      0.0         False
+335              SW 2008-10-01      1.4  ...      False      0.0         False
+350              SW 2008-10-16      4.4  ...      False      0.0         False
+
+[7 rows x 24 columns]

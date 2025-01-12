@@ -43,4 +43,6 @@ dziewiątej wiał z kierunków południowozachodnich.
 '''
 )
 sw_wind_days = weather[weather['WindDir9am'] == 'SW']
+print('Copying WindDir9am to the beginning so that it is visible in the output file.\n')
+sw_wind_days.insert(0, 'WindDir9am_copy', sw_wind_days['WindDir9am'])
 print(sw_wind_days)
