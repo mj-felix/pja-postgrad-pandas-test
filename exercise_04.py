@@ -1,10 +1,22 @@
 from exercise_03 import animals
 
 # These modifications need to be outside of if __name__ == '__main__' block to be persisted for exercise_05
+
+# a) przywróć ramce danych domyślny indeks całkowity, sprawiając jednocześnie,
+# by nie została dodana nowa kolumna z wcześniejszymi wartościami indeksu
 animals_a = animals.reset_index(inplace=False, drop=True)
+
+# b) utwórz indeks z kolumny 'name'
 animals_b = animals_a.set_index('name', inplace=False)
+
+# c) usuń z ramki danych wiersz, zawierający informacje o psie, wabiącym się Max,
 animals_c = animals_b.drop('Max', inplace=False)
+
+# d) przywróć ramce danych domyślny indeks całkowity, sprawiając jednocześnie,
+# by z istniejącego indeksu uczynić kolumnę danych w ramce.
 animals_d = animals_c.reset_index(inplace=False)
+
+# making sure animals have all the modifications for exercise_05
 animals = animals_d
 
 if __name__ == '__main__':
